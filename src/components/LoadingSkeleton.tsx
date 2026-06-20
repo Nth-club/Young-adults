@@ -5,10 +5,7 @@ import { motion } from 'motion/react';
 function SkeletonLogoIcon() {
   return (
     <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-[#6366F1] dark:text-[#818CF8]">
-      <circle cx="50" cy="50" r="45" stroke="currentColor" strokeWidth="6" className="opacity-20" />
-      <path d="M50 15L85 32.5L50 50L15 32.5L50 15Z" fill="currentColor" stroke="currentColor" strokeWidth="4" strokeLinejoin="round" />
-      <path d="M25 45V68C25 74 36.1929 80 50 80C63.8071 80 75 74 75 68V45" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-      <circle cx="80" cy="65" r="3" fill="currentColor" />
+      <img src="./assets/logo.png" alt="Logo">
     </svg>
   );
 }
