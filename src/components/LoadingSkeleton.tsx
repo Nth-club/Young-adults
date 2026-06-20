@@ -35,7 +35,7 @@ export function LoadingSkeleton() {
             <SkeletonLogoIcon />
           ) : (
             <img
-              src="/static/assets/logo.png"
+              src="./assets/logo.png"
               alt="Young Adults"
               className="w-20 h-20 object-contain"
               onError={() => setImgError(true)}
